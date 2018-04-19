@@ -3,8 +3,19 @@
   "version": "1.0.0",
   "description": "A passphrase generator, powered by eff.org's dice words",
   "main": "src/index.js",
-  "repository": "git@github.com:giridharangm/eff-dice-generator.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/giridharangm/eff-dice-generator.git"
+  },
   "author": "Giridharan GM",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/giridharangm/eff-dice-generator/issues"
+  },
+  "homepage": "https://github.com/giridharangm/eff-dice-generator#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["eff", "passphrase", "eff-dice", "generate", "passphrase"]
 }
