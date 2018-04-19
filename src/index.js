@@ -34,5 +34,4 @@ function generatePassphrase(dice_no, is_short) {
     return passPhrase;
   }
 }
-
 module.exports = generatePassphrase;
